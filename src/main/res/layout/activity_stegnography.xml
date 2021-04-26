@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/main">
+
+    <Button
+        android:id="@+id/encode_button"
+        android:layout_width="139dp"
+        android:layout_height="87dp"
+
+
+        android:layout_above="@+id/decode_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="75dp"
+        android:text="Encode" />
+
+    <Button
+        android:id="@+id/decode_button"
+        android:layout_width="140dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="230dp"
+        android:text="Decode" />
+
+    <TextView
+        android:id="@+id/Steganography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/encode_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="85dp"
+        android:background="#151515"
+        android:text="Steganography"
+        android:textColor="#0DED16"
+        android:textColorHint="#6A0F0F"
+        android:textSize="50dp" />
+
+</RelativeLayout>
